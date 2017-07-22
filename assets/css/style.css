@@ -1,0 +1,22 @@
+body {
+	background-image: url("http://i.imgur.com/EPpftAQ.jpg");
+	color:#D6B874;
+	text-shadow: 1px 1px 1px #000, 
+               3px 3px 5px #BD4190;
+
+}
+
+img {
+	height: 2%;
+	width: 20%;
+	border:solid 5px #D6B874;
+}
+
+.paragraph{
+	margin:10px;
+}
+
+#plug {
+	text-align: center;
+	font-size: 100px
+}

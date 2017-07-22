@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Crystal Collector</title>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+	<!-- <link rel="stylesheet" type="text/css" href="/Users/chrisdaschke/Portfolio/week-4-game/assets/css/reset.css"> -->
+
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+
+
+</head>
+<body>
+<dir class="col-lg-1"></dir>
+<div class="page-header">
+<h1>Crystal Meth Collector</h1>
+</div>
+
+<container>
+<div class="row">
+	<div class="col-lg-1"></div>
+		<div class="col-lg-6">
+			<div class="paragraph">
+				You wil be given a random number of kilos of crystal meth that you need to make at the start of the game.
+				<br>
+				There are four types of meth below. By clicking on a meth you will add a specific number of kilos to your total weight.
+				<br>
+				You win the game by matching kilos needed to the random number, you lose the game if your total weight goes above the random number.
+				<br>
+				The value of each crystal is hidden from you until you click on it.
+				<br>
+				Each time when the game, the game will change the values of each crystal.
+			</div>
+
+	<img class="btn" id="pic1" src="assets/images/meth1.jpg">
+	<img class="btn" id="pic2" src="assets/images/meth2.jpg">	
+	<img class="btn" id="pic3" src="assets/images/meth3.jpg">
+	<img class="btn" id="pic4" src="assets/images/meth4.jpg">
+
+</div>
+<div class="row">
+
+	<div class="col-lg-4">
+			<h3 id="number">Kilos to Reach</h3>
+	</div>
+	<div class="col-lg-3">
+			<h3 id="losses">Wins:</h3>
+			<h3 id="wins">Losses:</h3>
+	</div>
+</div>
+</container>
+
+<container>
+	<div class="row">
+		<div class="col-lg-1"></div>
+		<div class="col-lg-3">
+	
+		</div>
+	</div>
+</container>
+
+<container>
+	<div class="col-lg-1"></div>
+	<div class="col-lg-4">
+		<h3>Your Total Weight is:</h3>
+		<h1 id="plug"></h1>
+
+	</div>
+
+<script type="text/javascript" src="assets/js/game.js"></script>
+
+</body>
+</html>
